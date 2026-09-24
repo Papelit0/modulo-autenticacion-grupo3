@@ -1,0 +1,45 @@
+.titulo{
+    text-align: center;
+    font-size: 35px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.usuario{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    color: rgb(32, 105, 82);
+    font-size: 30px;
+}
+.tarjeta-titulo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: rgb(141, 4, 4);
+}
+
+.tarjeta-numero{
+    display:grid;
+    justify-content: space-around;
+    font-size: 25px;
+    color: rgb(141, 4, 4);
+}
+.tarjeta-icono{
+    display: grid;
+    justify-content: flex-end;
+}
+.seccion-titulo{
+display: grid;
+font-size: 25px;
+justify-content: center;
+bottom: 30px;
+color: black;
+}
+
