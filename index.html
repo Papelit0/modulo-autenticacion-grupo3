@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,26 +8,36 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <div class="login-container">
-        <!-- Parte izquieda del login con imagen -->
-        <div> 
-            <img class="login-fondo" src="https://tse3.mm.bing.net/th/id/OIP.i6iLMU8-6pWsygR5kZGAXQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="TT3">
-        </div>
-        <!-- <div> // Input de datos -->
-            <div class="login-datos ">
-                  <h1>Iniciar sesion </h1>
-            <h2>Correo</h2>
-            <input type="text" name="Ingrese su correo electronico" id="1">
-        <!-- Input de correo -->
-            <h2>Contraseña</h2>
-            <input type="email" name="Ingrese la Contraseña" id="2">
+<body class="login_body">
+    <!-- contenedor login -->
+    <div class="login_container">
 
-            <a href="#">¿Olvidaste tu Contraseña?</a>
-            <div class="login-boton">
-                <button type="button" onclick="alert('');">Ingresar</button>
+        <!-- imagen del login -->
+        <div class="login_imagen_caja">
+            <img class="login_fondo" src="https://tse3.mm.bing.net/th/id/OIP.i6iLMU8-6pWsygR5kZGAXQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Imagen decorativa">
         </div>
-     </div>
+
+        <!-- datos de usuario -->
+        <div class="login_datos">
+            <h1>Iniciar sesión</h1>
+
+            <!-- input correo -->
+            <h2>Correo</h2>
+            <input type="text" name="correo" placeholder="Ingrese su correo electrónico" id="correo">
+
+            <!-- input contraseña -->
+            <h2>Contraseña</h2>
+            <input type="password" name="password" placeholder="Ingrese la contraseña" id="password">
+
+            <!-- link olvidar contraseña -->
+            <a href="#">¿Olvidaste tu Contraseña?</a>
+
+            <!-- boton ingresar -->
+            <div class="login_boton">
+                <button type="button">Ingresar</button>
+            </div>
+        </div>
+
     </div>
 </body>
 
